@@ -1,5 +1,5 @@
 //glTools.js
-import glm from 'gl-matrix';
+import * as glm from 'gl-matrix'
 let gl;
 
 
@@ -16,7 +16,7 @@ class glTools {
 		this._width,
 		this._height,
 		this._viewport = [0,0,0,0];
-		this.identityMatrix  = glm.mat4.create();
+		this.identityMatrix  = glm.mat4.create()
 	}
 
 	//PRIVATE MATHODS

@@ -27,6 +27,7 @@ module.exports = {
         //library: "app"
     },
     cache: isDevelopment,
+    devtool: isDevelopment ? 'source-map' : '',
     devServer: { inline: true },
     stats: {
         cached: false,
